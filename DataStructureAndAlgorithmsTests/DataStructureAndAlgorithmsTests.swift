@@ -20,7 +20,7 @@ class DataStructureAndAlgorithmsTests: XCTestCase {
 
     func test_lineraSearch_withValidValue_returnsTure(){
         var arr = [1,2,3,4,5,6,7,8,9,10]
-        let status = Linear.search(arr: &arr, item: 10)
+        let status = Linear.search(arr: &arr, item: 5)
         XCTAssertTrue(status)
     }
 
