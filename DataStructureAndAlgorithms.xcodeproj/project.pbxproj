@@ -16,6 +16,10 @@
 		04765F79267E445C00C1EFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04765F77267E445C00C1EFAA /* LaunchScreen.storyboard */; };
 		04765F84267E445C00C1EFAA /* DataStructureAndAlgorithmsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04765F83267E445C00C1EFAA /* DataStructureAndAlgorithmsTests.swift */; };
 		04765F8F267E445C00C1EFAA /* DataStructureAndAlgorithmsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04765F8E267E445C00C1EFAA /* DataStructureAndAlgorithmsUITests.swift */; };
+		04765FAE267E44C500C1EFAA /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04765FAD267E44C500C1EFAA /* LinearSearch.swift */; };
+		04765FAF267E44C500C1EFAA /* LinearSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04765FAD267E44C500C1EFAA /* LinearSearch.swift */; };
+		04765FB4267E47B900C1EFAA /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 04765FB3267E47B900C1EFAA /* Readme.md */; };
+		04765FB5267E47B900C1EFAA /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 04765FB3267E47B900C1EFAA /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,8 @@
 		04765F8A267E445C00C1EFAA /* DataStructureAndAlgorithmsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructureAndAlgorithmsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04765F8E267E445C00C1EFAA /* DataStructureAndAlgorithmsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructureAndAlgorithmsUITests.swift; sourceTree = "<group>"; };
 		04765F90267E445C00C1EFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04765FAD267E44C500C1EFAA /* LinearSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearSearch.swift; sourceTree = "<group>"; };
+		04765FB3267E47B900C1EFAA /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		04765F5D267E445900C1EFAA = {
 			isa = PBXGroup;
 			children = (
+				04765FB3267E47B900C1EFAA /* Readme.md */,
 				04765F68267E445900C1EFAA /* DataStructureAndAlgorithms */,
 				04765F82267E445C00C1EFAA /* DataStructureAndAlgorithmsTests */,
 				04765F8D267E445C00C1EFAA /* DataStructureAndAlgorithmsUITests */,
@@ -102,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				04765F69267E445900C1EFAA /* AppDelegate.swift */,
+				04765F9F267E448200C1EFAA /* SearchAlgo */,
 				04765F6B267E445900C1EFAA /* SceneDelegate.swift */,
 				04765F6D267E445900C1EFAA /* ViewController.swift */,
 				04765F6F267E445900C1EFAA /* Main.storyboard */,
@@ -129,6 +137,14 @@
 				04765F90267E445C00C1EFAA /* Info.plist */,
 			);
 			path = DataStructureAndAlgorithmsUITests;
+			sourceTree = "<group>";
+		};
+		04765F9F267E448200C1EFAA /* SearchAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				04765FAD267E44C500C1EFAA /* LinearSearch.swift */,
+			);
+			path = SearchAlgo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +252,7 @@
 			files = (
 				04765F79267E445C00C1EFAA /* LaunchScreen.storyboard in Resources */,
 				04765F76267E445C00C1EFAA /* Assets.xcassets in Resources */,
+				04765FB4267E47B900C1EFAA /* Readme.md in Resources */,
 				04765F71267E445900C1EFAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04765FB5267E47B900C1EFAA /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +281,7 @@
 			files = (
 				04765F6E267E445900C1EFAA /* ViewController.swift in Sources */,
 				04765F6A267E445900C1EFAA /* AppDelegate.swift in Sources */,
+				04765FAE267E44C500C1EFAA /* LinearSearch.swift in Sources */,
 				04765F6C267E445900C1EFAA /* SceneDelegate.swift in Sources */,
 				04765F74267E445900C1EFAA /* DataStructureAndAlgorithms.xcdatamodeld in Sources */,
 			);
@@ -272,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04765FAF267E44C500C1EFAA /* LinearSearch.swift in Sources */,
 				04765F84267E445C00C1EFAA /* DataStructureAndAlgorithmsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
