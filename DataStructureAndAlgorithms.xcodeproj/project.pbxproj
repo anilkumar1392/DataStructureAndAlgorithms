@@ -40,6 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		045C91BF26E23F6E00066D8B /* DoublyLinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DoublyLinkedList.playground; sourceTree = "<group>"; };
+		045C91C326E23F7500066D8B /* LinkListPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkListPlayground.playground; sourceTree = "<group>"; };
+		045C91C726E23F8500066D8B /* SortingAlgo copy.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "SortingAlgo copy.playground"; sourceTree = "<group>"; };
+		045C91CB26E23F8B00066D8B /* Linklist_Practice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Linklist_Practice.playground; sourceTree = "<group>"; };
+		045C91CF26E23F9000066D8B /* SortingAlgo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SortingAlgo.playground; sourceTree = "<group>"; };
+		045C91D326E23F9500066D8B /* SortingAlgoInPractice.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SortingAlgoInPractice.playground; sourceTree = "<group>"; };
+		045C91D726E23F9D00066D8B /* MyPlayground15.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground15.playground; sourceTree = "<group>"; };
+		045C91DB26E23FC800066D8B /* MyPlayground15.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground15.playground; path = ../../Playground/MyPlayground15.playground; sourceTree = "<group>"; };
+		045C91DF26E23FCD00066D8B /* TreeDataStructure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = TreeDataStructure.playground; sourceTree = "<group>"; };
+		045C91E326E23FD700066D8B /* ArrayProblems.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ArrayProblems.playground; sourceTree = "<group>"; };
+		045C91E726E23FDC00066D8B /* PropertyWrappers.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = PropertyWrappers.playground; sourceTree = "<group>"; };
+		045C91EB26E23FE700066D8B /* SearchingAlgo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SearchingAlgo.playground; sourceTree = "<group>"; };
 		04765F66267E445900C1EFAA /* DataStructureAndAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructureAndAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04765F69267E445900C1EFAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04765F6B267E445900C1EFAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +123,16 @@
 				04765F69267E445900C1EFAA /* AppDelegate.swift */,
 				04765F9F267E448200C1EFAA /* SearchAlgo */,
 				04765F6B267E445900C1EFAA /* SceneDelegate.swift */,
+				045C91DF26E23FCD00066D8B /* TreeDataStructure.playground */,
+				045C91D726E23F9D00066D8B /* MyPlayground15.playground */,
+				045C91DB26E23FC800066D8B /* MyPlayground15.playground */,
+				045C91EB26E23FE700066D8B /* SearchingAlgo.playground */,
+				045C91E326E23FD700066D8B /* ArrayProblems.playground */,
+				045C91D326E23F9500066D8B /* SortingAlgoInPractice.playground */,
+				045C91C326E23F7500066D8B /* LinkListPlayground.playground */,
+				045C91BF26E23F6E00066D8B /* DoublyLinkedList.playground */,
 				04765F6D267E445900C1EFAA /* ViewController.swift */,
+				045C91E726E23FDC00066D8B /* PropertyWrappers.playground */,
 				04765F6F267E445900C1EFAA /* Main.storyboard */,
 				04765F75267E445C00C1EFAA /* Assets.xcassets */,
 				04765F77267E445C00C1EFAA /* LaunchScreen.storyboard */,
@@ -142,6 +163,9 @@
 		04765F9F267E448200C1EFAA /* SearchAlgo */ = {
 			isa = PBXGroup;
 			children = (
+				045C91CF26E23F9000066D8B /* SortingAlgo.playground */,
+				045C91CB26E23F8B00066D8B /* Linklist_Practice.playground */,
+				045C91C726E23F8500066D8B /* SortingAlgo copy.playground */,
 				04765FAD267E44C500C1EFAA /* LinearSearch.swift */,
 			);
 			path = SearchAlgo;
